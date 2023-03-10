@@ -7,7 +7,7 @@ function showTime() {
     
     if (h == 0) {
         h = 12;
-    }
+    } // this code converts the clock from 24hrs to 12hrs clock
 
     if (h > 12) {
         h = h - 12;
